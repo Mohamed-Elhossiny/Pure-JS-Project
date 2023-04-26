@@ -1,0 +1,96 @@
+body {
+    background-color: #eee;
+}
+.header {
+    position: fixed;
+    top: 0;
+    background-color: white;
+}
+.form {
+    margin-top: 50px;
+}
+
+.form .container {
+    width: 600px;
+    /* height: 800px; */
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+}
+.form .container form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+/* .form .container form .error {
+    color: red;
+    font-size: 12px;
+    padding: 5px;
+} */
+/* .form .container form .valid {
+    color: rgb(7, 199, 0);
+    font-size: 12px;
+    padding: 5px;
+} */
+.form .container form input {
+    margin-top: 10px;
+    padding: 10px 30px 9px 5px;
+    width: 348px;
+    border: none;
+    background-color: #eee;
+    border-bottom: 1px solid ;
+}
+.form .container form button {
+    margin-top: 30px;
+    padding: 10px;
+    background-color: var(--main-color);
+    border-radius: 5px;
+    color: white;
+    border: none;
+    /* box-shadow: 5px 5px 5px; */
+    cursor: pointer;
+}
+.form .container form button a {
+    text-decoration: none;
+    color: white;
+}
+.form .container form .regist {
+    margin-top: 30px;
+    background-color: green;
+}
+.form .container form .reset {
+    margin-top: 30px;
+    background-color: rgb(166, 2, 5);
+}
+
+.footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: white;
+    margin-top: 50px;
+}
+.footer .container {
+    display: flex;
+    justify-content: space-around;
+}
+.footer .container .social {
+    font-weight: 600;
+}
+.footer .container .social i {
+    margin-left: 5px;
+    color: var(--section-color);
+}
+.footer .container .top i {
+    color: var(--main-color);
+    font-size: 20px;
+}
+.footer .container .social a:first-child :hover {
+    color: red;
+}
+.footer .container .social a:nth-child(2) :hover {
+    color: rgb(0, 117, 233);
+}
+.footer .container .social a:last-child :hover {
+    color: rgb(0, 117, 233);
+}
